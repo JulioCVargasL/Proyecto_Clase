@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Keania+One&family=Madimi+One&family=Protest+Guerrilla&family=Protest+Strike&display=swap);
+:root{
+  --bg-black: #1e1e1eee;
+  --bg-white: #fff;
+  --bg-primary: #e9e50a;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--bg-primary);
+}
+ body{
+    font-family: "Protest Strike", sans-serif;
+    background-color: var(--bg-black);
+ }
+ .cuerpo{
+  height: 80%;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  padding: 20% 20%;
+  justify-content: center;
+ }
